@@ -182,4 +182,134 @@ nav ul li:hover {
 .btn:hover span:after {
     opacity: 1;
     right: 0;
+    text-shadow: 4px 4px 8px black;
+    padding: 20px;
+}
+.proyectos{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.proyectos h1{
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: rgba(33, 33, 33, 0.8);
+    text-shadow: 2px 2px 4px #911e32;
+}
+
+.proyectoscol{
+	display: flex;
+    flex: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.P1{
+    background-color: #911e32;
+    width: 30%;
+    color:white;
+    padding: 20px;
+    text-align: center;
+    text-shadow: 4px 4px 8px black;
+}
+
+.P1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.P1 h2{
+    text-align: center;
+}
+
+.P1 h4{
+    text-align: center;
+    height: 100px;
+}
+
+.P2{
+    background-color:#212121;
+    padding: 20px;
+    width: 30%;
+    color:white;
+    text-align: center;
+    text-shadow: 4px 4px 8px black;
+}
+
+.P2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.P2 h2{
+    text-align: center;
+}
+
+.P2 h4{
+    text-align: center;
+    height: 100px;
+}
+
+.contacto{
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex: 100%;
+    flex-direction: row;
+}
+
+.form{
+    padding: 20px;
+    width: 50%;
+    color:black;
+    text-align: center;
+}
+
+.direc{
+    padding: 20px;
+    width: 50%;
+    color:black;
+    text-align: center;
+}
+
+footer{
+    background: #212121;
+    width: 100%;
+    padding: 20px; 
+    display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;     
+}
+
+footer p{
+    color: white;
+}
+
+.about{
+    width: 25%;
+    padding: 20px;
+    color: white;
+}
+.about img{
+    width: 250px;
+}
+.redes{
+    width: 25%;
+    padding: 20px;
+    align-content: center;
+    font-size: xx-large;
+}
+.redes i{
+    padding: 20px;
+    align-content: center;
+    color: white;
 }
