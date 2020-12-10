@@ -150,3 +150,97 @@ nav ul li:hover {
     text-shadow: 4px 4px 8px black;
     padding: 20px;
 }
+.proyectos{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex: 100%;
+    flex-direction: column;
+}
+.proyectos h1{
+    margin: 0px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    color: rgba(33, 33, 33, 0.8);
+    text-shadow: 2px 2px 4px #911e32;
+}
+
+.proyectoscol{
+	display: flex;
+	flex-wrap:wrap;
+	flex-direction:row;
+	justify-content:center;
+}
+.P1{
+    background-color: #911e32;
+    width: 20%;
+    color:white;
+    padding: 20px;
+
+    text-align: center;
+    text-shadow: 4px 4px 8px black;
+}
+.P1 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.P1 h2{
+    text-align: center;
+}
+.P1 h4{
+    text-align: center;
+}
+.P2{
+    background-color:#212121;
+    padding: 20px;
+    width: 20%;
+
+    color:white;
+    text-align: center;
+    text-shadow: 4px 4px 8px black;
+}
+.P2 img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+.P2 h2{
+    text-align: center;
+}
+.P2 h4{
+    text-align: center;
+}
+
+footer{
+    background: #212121;
+    width: 100%;
+    padding: 20px; 
+
+    display: flex;
+	flex-wrap:wrap;
+	justify-content:space-between;     
+}
+
+.about{
+    width: 25%;
+    padding: 20px;
+    color: white;
+}
+.about img{
+    width: 250px;
+}
+.redes{
+    width: 25%;
+    padding: 20px;
+    align-content: center;
+    font-size: xx-large;
+}
+.redes i{
+    padding: 20px;
+    align-content: center;
+    color: white;
+}
